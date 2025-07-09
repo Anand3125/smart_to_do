@@ -161,13 +161,7 @@ This project integrates **Google Gemini AI** to enhance the user experience thro
 
 ---
 
-### 🌐 Frontend
 
-```bash
-cd smart-todo-frontend
-npm install
-npm run dev
-```
 
 ---
 
