@@ -59,29 +59,14 @@ Pull requests are welcome! Feel free to fork, clone, and PR.
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the **Anand Kumar**.
 
-Absolutely! Below is your **complete, polished `README.md`** — just copy and paste it directly into your `README.md` file in the root of your project. Everything is formatted, clean, and includes Gemini AI, your contact info, other projects, and a beautiful final "Next Step" section.
 
----
 
-```markdown
-# 🧠 Smart To-Do
 
-A full‑stack task management web app with a **Next.js** frontend, **Django REST API** backend, and integrated **Gemini AI** for smart grammar and productivity enhancements.
 
----
 
-## 🚀 Live Demo
-
-- 🌐 **Frontend (Next.js)**: [https://your-frontend.vercel.app](#)
-- 🌐 **Backend (Django REST)**: [https://your-backend.onrender.com](#)
-
-> Replace above links once deployed.
-
----
-
-## 🗂️ Project Structure
+ 🗂️ Project Structure
 
 ```
 
@@ -91,7 +76,7 @@ AItodo/
 
 ````
 
----
+
 
 ## 🎯 Features
 
@@ -112,18 +97,7 @@ This project integrates **Google Gemini AI** to enhance the user experience thro
 - 🧠 **Smart suggestions** while creating tasks  
 - 🎤 (Planned) **Voice input** to text via AI  
 
-> Powered by Gemini Pro API. The integration uses `fetch` or `axios` in frontend or Django's `requests` module in backend.
 
-**Example (pseudo-code):**
-
-```js
-const response = await gemini.generate({
-  prompt: "Correct grammar: " + userTask,
-});
-const correctedTask = response.text;
-````
-
----
 
 ## ⚙️ Tech Stack
 
