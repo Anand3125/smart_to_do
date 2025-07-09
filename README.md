@@ -3,7 +3,7 @@
 🎓 Full-Stack Developer | MERN + Python | AI Integration Enthusiast  
 🌱 Currently building smart, intelligent apps with Next.js, Django, and Gemini AI.
 
----
+
 
 ## 🔭 Latest Project
 
@@ -15,21 +15,20 @@ A full-stack to-do app with Gemini AI-based grammar correction.
 - 🌐 Deployed on Vercel & Render
 - 📦 Includes CORS, PostgreSQL, and auto deploys
 
----
+
 
 ## 🌐 Portfolio
 
 - 🌍 [anand3125.github.io/Akfolio](https://anand3125.github.io/Akfolio/)
 - 📄 [My Resume](https://shorturl.at/6tjZ9)
 
----
 
 ## 📌 Other Projects
 
 - 🛒 [E-commerce React App](https://ecommerce-react-website-beta.vercel.app/)
 - 🔗 [Express.js Product API](https://evara-main-backend.onrender.com/api/products)
 
----
+
 
 ## 📫 Contact Me
 
@@ -37,7 +36,7 @@ A full-stack to-do app with Gemini AI-based grammar correction.
 - 📞 **Phone**: +91 9430417562
 - 🔗 **LinkedIn**: [linkedin.com/in/georgian3125anand](https://www.linkedin.com/in/georgian3125anand/)
 
----
+
 
 ## 🛠️ Tech Stack
 
@@ -70,19 +69,17 @@ A full‑stack task management web app with a **Next.js** frontend, **Django RES
 
 > Replace above links after deployment.
 
----
 
-## 🗂️ Project Structure
 
-```
+ 🗂️ Project Structure
+
+
 
 AItodo/
 ├── smart-todo-frontend/    # Next.js client
 └── smart-todo-backend/     # Django REST API server
 
-````
 
----
 
 ## 🎯 Features
 
@@ -93,7 +90,7 @@ AItodo/
 ✅ CORS-enabled for frontend-backend communication  
 ✅ Deployment-ready for Vercel (frontend) and Render (backend)
 
----
+
 
 ## 🔮 Gemini AI Integration
 
@@ -103,14 +100,7 @@ Smart To-Do integrates **Google Gemini AI** to:
 - 🧠 Suggest improvements to task input
 - 🎤 (Planned) Convert voice to task text
 
-**Example usage:**
 
-```js
-const response = await gemini.generate({
-  prompt: "Correct grammar: " + userTask,
-});
-const correctedTask = response.text;
-````
 
 > This improves UX by ensuring task entries are clean and actionable.
 
@@ -198,12 +188,7 @@ npm run dev
 
 Hi, I'm **Anand Kumar**, a full-stack developer passionate about AI-integrated web applications.
 
-* 📧 Email: [georgian3125anand@gmail.com](mailto:georgian3125anand@gmail.com)
-* 📞 Phone: +91 9430417562
-* 🌐 Portfolio: [https://anand3125.github.io/Akfolio/](https://anand3125.github.io/Akfolio/)
-* 🔗 LinkedIn: [linkedin.com/in/georgian3125anand](https://www.linkedin.com/in/georgian3125anand/)
-* 📅 Last Updated: **July 9th, 2025**
-* 📄 Resume: [https://shorturl.at/6tjZ9](https://shorturl.at/6tjZ9)
+
 
 ---
 
@@ -253,7 +238,7 @@ A full‑stack task management web app with a **Next.js** frontend, **Django RES
 
 ---
 
-## 🗂️ Project Structure
+ 🗂️ Project Structure
 
 ```
 
@@ -376,6 +361,12 @@ Client: `http://localhost:3000`
 👉 **E-commerce API (Node.js/Express):**
 🔗 [evara-main-backend.onrender.com/api/products](https://evara-main-backend.onrender.com/api/products)
 
+
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, open an issue first to discuss.
+
 ---
 
 ## 👨‍💻 About Me
@@ -390,41 +381,3 @@ Hi, I'm **Anand Kumar**, a full-stack developer passionate about modern web and 
 * 📄 Resume: [https://shorturl.at/6tjZ9](https://shorturl.at/6tjZ9)
 
 ---
-
-## 🤝 Contributing
-
-Pull requests are welcome. For major changes, open an issue first to discuss.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — free to use and adapt.
-
----
-
-````
-
----
-
-### ✅ Next Step
-
-1. Replace `"your-frontend..."`, `"your-backend..."`, and `your_project_name` as needed.
-2. Save this as `README.md` in your project root.
-3. Push with:
-
-```bash
-git add README.md
-git commit -m "Add updated README with Gemini AI"
-git push
-````
-
----
-
-Let me know if you want:
-
-* An animated GIF of the app
-* A profile README matching this style
-* Gemini API usage in backend (Python) or frontend (JS)
-
-You're building something impressive — and it shows! 🚀
