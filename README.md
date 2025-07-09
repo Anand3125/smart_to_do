@@ -1,9 +1,17 @@
+Awesome! Since you're integrating **Gemini AI** for grammar correction or smart task features, I've updated the README to include:
 
+* ✨ Gemini AI section (with usage)
+* 🔮 Feature enhancements
+* ✅ Clean, professional presentation
+
+---
+
+## 📄 UPDATED `README.md` (with Gemini AI Integration)
 
 ```markdown
 # 🧠 Smart To-Do
 
-A full‑stack task management web app with a **Next.js** frontend and a **Django REST API** backend — designed to boost productivity and manage tasks seamlessly.
+A full‑stack task management web app with a **Next.js** frontend, **Django REST API** backend, and integrated **Gemini AI** for smart grammar and productivity enhancements.
 
 ---
 
@@ -31,22 +39,43 @@ AItodo/
 ## 🎯 Features
 
 ✅ Create, update, and delete tasks  
+✅ AI-enhanced grammar correction via Gemini API  
 ✅ Responsive UI with Next.js  
 ✅ REST API with Django REST Framework  
-✅ CORS-enabled for cross-origin frontend-backend comm  
-✅ Ready for deployment on **Vercel** (frontend) and **Render** (backend)
+✅ CORS-enabled frontend-backend integration  
+✅ Ready for deployment (Vercel + Render)
+
+---
+
+## 🔮 Gemini AI Integration
+
+This project integrates **Google Gemini AI** to enhance the user experience through:
+
+- ✏️ **Grammar correction** for task inputs
+- 🧠 **Smart suggestions** while creating tasks
+- 🎤 (Planned) **Voice input** to text via AI
+
+> Powered by Gemini Pro API. The integration uses fetch/axios in frontend or Django `requests` backend depending on usage.
+
+**Example (pseudo-code):**
+```js
+const response = await gemini.generate({
+  prompt: "Correct grammar: " + userTask,
+});
+const correctedTask = response.text;
+````
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Layer       | Tech                          |
-|-------------|-------------------------------|
-| Frontend    | Next.js, React, Tailwind CSS (?) |
-| Backend     | Python, Django, Django REST   |
-| Database    | PostgreSQL (Render)           |
-| Hosting     | Vercel (frontend), Render (backend) |
-| Others      | GitHub, Gunicorn, CORS        |
+| Layer      | Tech                                |
+| ---------- | ----------------------------------- |
+| Frontend   | Next.js, React, Tailwind CSS (?)    |
+| Backend    | Python, Django, Django REST         |
+| AI Service | Google Gemini API (grammar, NLP)    |
+| Database   | PostgreSQL (Render)                 |
+| Deployment | Vercel (frontend), Render (backend) |
 
 ---
 
@@ -61,7 +90,7 @@ source venv/bin/activate      # or .\venv\Scripts\activate (Windows)
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
-````
+```
 
 Server: `http://localhost:8000`
 
@@ -83,30 +112,30 @@ Client: `http://localhost:3000`
 
 ### 🖥️ Frontend on Vercel
 
-1. Connect GitHub repo
-2. Set project root: `/smart-todo-frontend`
-3. Auto deploys on push
+* Connect GitHub repo
+* Set project root: `/smart-todo-frontend`
 
 ### 🗄️ Backend on Render
 
-1. Connect GitHub repo
-2. Root directory: `smart-todo-backend`
-3. Environment Variables:
+* Connect GitHub repo
+* Root: `smart-todo-backend`
+* Add environment variables:
 
-   * `DJANGO_SECRET_KEY`
-   * `DEBUG=False`
-   * `DATABASE_URL` (from Render PostgreSQL)
+  * `DJANGO_SECRET_KEY`
+  * `DEBUG=False`
+  * `DATABASE_URL`
+  * `GEMINI_API_KEY`
 
 ---
 
 ## 🧪 Roadmap / To-Do
 
-* [ ] Add JWT-based user authentication
-* [ ] Dockerize the fullstack setup
-* [ ] Add pagination & filtering
-* [ ] Unit tests (Pytest, Jest)
-* [ ] CI/CD pipeline (GitHub Actions)
-* [ ] Swagger API docs
+* [x] Gemini AI integration for grammar check
+* [ ] JWT-based user authentication
+* [ ] Voice-to-text using Gemini speech input
+* [ ] Docker support for local dev
+* [ ] GitHub Actions for CI/CD
+* [ ] API documentation with Swagger or Redoc
 
 ---
 
@@ -122,7 +151,7 @@ Client: `http://localhost:3000`
 
 ## 👨‍💻 About Me
 
-Hi, I'm **Anand Kumar**, a full-stack developer passionate about building modern web applications.
+Hi, I'm **Anand Kumar**, a full-stack developer passionate about modern web and AI integration.
 
 * 📧 Email: [georgian3125anand@gmail.com](mailto:georgian3125anand@gmail.com)
 * 📞 Phone: +91 9430417562
@@ -135,13 +164,13 @@ Hi, I'm **Anand Kumar**, a full-stack developer passionate about building modern
 
 ## 🤝 Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss.
+Pull requests are welcome. For major changes, open an issue first to discuss.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** — feel free to use and modify.
+This project is licensed under the **MIT License** — free to use and adapt.
 
 ---
 
@@ -149,20 +178,24 @@ This project is licensed under the **MIT License** — feel free to use and modi
 
 ---
 
-### ✅ Next Steps:
+### ✅ Next Step
 
-1. Copy this into `README.md` in your root folder (`AItodo/`)
-2. Run:
-   ```bash
-   git add README.md
-   git commit -m "Add professional README"
-   git push
+1. Replace `"your-frontend..."`, `"your-backend..."`, and `your_project_name` as needed.
+2. Save this as `README.md` in your project root.
+3. Push with:
+
+```bash
+git add README.md
+git commit -m "Add updated README with Gemini AI"
+git push
 ````
 
-Let me know if you’d like:
+---
 
-* Screenshot or GIF banners added
-* GitHub profile README matching this style
-* More projects in the “Other Projects” section
+Let me know if you want:
 
-You're doing great — this will shine on your GitHub ✨
+* An animated GIF of the app
+* A profile README matching this style
+* Gemini API usage in backend (Python) or frontend (JS)
+
+You're building something impressive — and it shows! 🚀
