@@ -19,59 +19,6 @@ A full-stack to-do app with Gemini AI-based grammar correction.
 
 
 
-## 📄 License
-
-This project is licensed under the **Anand Kumar**.
-
-
-
-
-
-
- 🗂️ Project Structure
-
-```
-
-AItodo/
-├── smart-todo-frontend/    # Next.js client
-└── smart-todo-backend/     # Django REST API server
-
-````
-
-
-
-## 🎯 Features
-
-✅ Create, update, and delete tasks  
-✅ AI-enhanced grammar correction via Gemini API  
-✅ Responsive UI with Next.js  
-✅ REST API with Django REST Framework  
-✅ CORS-enabled frontend-backend integration  
-✅ Ready for deployment (Vercel + Render)
-
----
-
-## 🔮 Gemini AI Integration
-
-This project integrates **Google Gemini AI** to enhance the user experience through:
-
-- ✏️ **Grammar correction** for task inputs  
-- 🧠 **Smart suggestions** while creating tasks  
-- 🎤 (Planned) **Voice input** to text via AI  
-
-
-
-## ⚙️ Tech Stack
-
-| Layer      | Technology                          |
-| ---------- | ----------------------------------- |
-| Frontend   | Next.js, React, Tailwind CSS (?)    |
-| Backend    | Django, Django REST, Gunicorn       |
-| AI Service | Gemini API (Google)                 |
-| Database   | PostgreSQL (via Render)             |
-| Deployment | Vercel (frontend), Render (backend) |
-
----
 
 ## 🛠️ Getting Started Locally
 
@@ -224,6 +171,60 @@ npm run dev
 ```
 
 Client: `http://localhost:3000`
+
+---
+
+## 📄 License
+
+This project is licensed under the **Anand Kumar**.
+
+
+
+
+
+
+ 🗂️ Project Structure
+
+```
+
+AItodo/
+├── smart-todo-frontend/    # Next.js client
+└── smart-todo-backend/     # Django REST API server
+
+````
+
+
+
+## 🎯 Features
+
+✅ Create, update, and delete tasks  
+✅ AI-enhanced grammar correction via Gemini API  
+✅ Responsive UI with Next.js  
+✅ REST API with Django REST Framework  
+✅ CORS-enabled frontend-backend integration  
+✅ Ready for deployment (Vercel + Render)
+
+---
+
+## 🔮 Gemini AI Integration
+
+This project integrates **Google Gemini AI** to enhance the user experience through:
+
+- ✏️ **Grammar correction** for task inputs  
+- 🧠 **Smart suggestions** while creating tasks  
+- 🎤 (Planned) **Voice input** to text via AI  
+
+
+
+## ⚙️ Tech Stack
+
+| Layer      | Technology                          |
+| ---------- | ----------------------------------- |
+| Frontend   | Next.js, React, Tailwind CSS (?)    |
+| Backend    | Django, Django REST, Gunicorn       |
+| AI Service | Gemini API (Google)                 |
+| Database   | PostgreSQL (via Render)             |
+| Deployment | Vercel (frontend), Render (backend) |
 
 ---
 
