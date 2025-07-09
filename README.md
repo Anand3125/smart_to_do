@@ -1,12 +1,241 @@
-Awesome! Since you're integrating **Gemini AI** for grammar correction or smart task features, I've updated the README to include:
+# 👋 Hi, I'm Anand Kumar
 
-* ✨ Gemini AI section (with usage)
-* 🔮 Feature enhancements
-* ✅ Clean, professional presentation
+🎓 Full-Stack Developer | MERN + Python | AI Integration Enthusiast  
+🌱 Currently building smart, intelligent apps with Next.js, Django, and Gemini AI.
 
 ---
 
-## 📄 UPDATED `README.md` (with Gemini AI Integration)
+## 🔭 Latest Project
+
+### 🧠 [Smart To-Do](https://github.com/Anand3125/smart_to_do)
+A full-stack to-do app with Gemini AI-based grammar correction.
+
+- ✅ Next.js + Django REST
+- 🔮 Integrated Google Gemini API
+- 🌐 Deployed on Vercel & Render
+- 📦 Includes CORS, PostgreSQL, and auto deploys
+
+---
+
+## 🌐 Portfolio
+
+- 🌍 [anand3125.github.io/Akfolio](https://anand3125.github.io/Akfolio/)
+- 📄 [My Resume](https://shorturl.at/6tjZ9)
+
+---
+
+## 📌 Other Projects
+
+- 🛒 [E-commerce React App](https://ecommerce-react-website-beta.vercel.app/)
+- 🔗 [Express.js Product API](https://evara-main-backend.onrender.com/api/products)
+
+---
+
+## 📫 Contact Me
+
+- 📧 **Email**: georgian3125anand@gmail.com
+- 📞 **Phone**: +91 9430417562
+- 🔗 **LinkedIn**: [linkedin.com/in/georgian3125anand](https://www.linkedin.com/in/georgian3125anand/)
+
+---
+
+## 🛠️ Tech Stack
+
+```txt
+• Frontend: React, Next.js, Tailwind
+• Backend: Django, DRF, Express.js, Node.js
+• AI: Gemini API (NLP, Grammar), GPT
+• DB: PostgreSQL, MongoDB
+• DevOps: Render, Vercel, GitHub Actions
+part2- 88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+
+
+Here’s your updated `README.md` with **Gemini AI integration**, full contact info, project links, and polished formatting for showcasing your work on GitHub.
+
+---
+
+### ✅ Final Markdown Output — Copy into your `README.md`:
+
+```markdown
+# 🧠 Smart To-Do
+
+A full‑stack task management web app with a **Next.js** frontend, **Django REST API** backend, and integrated **Gemini AI** for smart grammar correction and productivity enhancements.
+
+---
+
+## 🚀 Live Demo
+
+- 🌐 **Frontend (Next.js)**: [https://your-frontend.vercel.app](#)
+- 🌐 **Backend (Django REST)**: [https://your-backend.onrender.com](#)
+
+> Replace above links after deployment.
+
+---
+
+## 🗂️ Project Structure
+
+```
+
+AItodo/
+├── smart-todo-frontend/    # Next.js client
+└── smart-todo-backend/     # Django REST API server
+
+````
+
+---
+
+## 🎯 Features
+
+✅ Create, update, and delete tasks  
+✅ AI-enhanced grammar correction via Gemini API  
+✅ Responsive UI with Next.js  
+✅ RESTful API with Django REST Framework  
+✅ CORS-enabled for frontend-backend communication  
+✅ Deployment-ready for Vercel (frontend) and Render (backend)
+
+---
+
+## 🔮 Gemini AI Integration
+
+Smart To-Do integrates **Google Gemini AI** to:
+
+- ✏️ Auto-correct grammar in tasks
+- 🧠 Suggest improvements to task input
+- 🎤 (Planned) Convert voice to task text
+
+**Example usage:**
+
+```js
+const response = await gemini.generate({
+  prompt: "Correct grammar: " + userTask,
+});
+const correctedTask = response.text;
+````
+
+> This improves UX by ensuring task entries are clean and actionable.
+
+---
+
+## ⚙️ Tech Stack
+
+| Layer      | Technology                          |
+| ---------- | ----------------------------------- |
+| Frontend   | Next.js, React, Tailwind CSS (?)    |
+| Backend    | Django, Django REST, Gunicorn       |
+| AI Service | Gemini API (Google)                 |
+| Database   | PostgreSQL (via Render)             |
+| Deployment | Vercel (frontend), Render (backend) |
+
+---
+
+## 🛠️ Getting Started Locally
+
+### 🔧 Backend
+
+```bash
+cd smart-todo-backend
+python -m venv venv
+source venv/bin/activate       # or .\venv\Scripts\activate on Windows
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+
+### 🌐 Frontend
+
+```bash
+cd smart-todo-frontend
+npm install
+npm run dev
+```
+
+---
+
+## 🌐 Deployment Steps
+
+### ✅ Frontend on Vercel
+
+* Connect GitHub repo
+* Set root to `/smart-todo-frontend`
+* Auto deploy on push
+
+### ✅ Backend on Render
+
+* Connect repo → root: `/smart-todo-backend`
+* Add env variables:
+
+| Key                 | Description                   |
+| ------------------- | ----------------------------- |
+| `DJANGO_SECRET_KEY` | Django secret key             |
+| `DEBUG`             | False                         |
+| `DATABASE_URL`      | PostgreSQL DB URL from Render |
+| `GEMINI_API_KEY`    | Your Gemini API key           |
+
+* Build command:
+
+  ```bash
+  pip install -r requirements.txt && python manage.py collectstatic --noinput && python manage.py migrate
+  ```
+* Start command:
+
+  ```bash
+  gunicorn your_project_name.wsgi:application
+  ```
+
+---
+
+## 📌 Other Projects
+
+* 🛒 **E-commerce React App**
+  [https://ecommerce-react-website-beta.vercel.app](https://ecommerce-react-website-beta.vercel.app)
+
+* 🧰 **E-commerce API (Node.js/Express)**
+  [https://evara-main-backend.onrender.com/api/products](https://evara-main-backend.onrender.com/api/products)
+
+---
+
+## 👨‍💻 About Me
+
+Hi, I'm **Anand Kumar**, a full-stack developer passionate about AI-integrated web applications.
+
+* 📧 Email: [georgian3125anand@gmail.com](mailto:georgian3125anand@gmail.com)
+* 📞 Phone: +91 9430417562
+* 🌐 Portfolio: [https://anand3125.github.io/Akfolio/](https://anand3125.github.io/Akfolio/)
+* 🔗 LinkedIn: [linkedin.com/in/georgian3125anand](https://www.linkedin.com/in/georgian3125anand/)
+* 📅 Last Updated: **July 9th, 2025**
+* 📄 Resume: [https://shorturl.at/6tjZ9](https://shorturl.at/6tjZ9)
+
+---
+
+## 📬 Contributing
+
+Pull requests are welcome! Feel free to fork, clone, and PR.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+````
+
+---
+
+### ✅ Next Step:
+Save this as `README.md` in your repo, then push:
+
+```bash
+git add README.md
+git commit -m "Add Gemini AI-enhanced project README"
+git push
+````
+
+Let me know when you're ready to add the animated demo GIF — or want the GitHub profile README styled to match this!
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 ```markdown
 # 🧠 Smart To-Do
