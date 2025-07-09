@@ -79,8 +79,8 @@ python manage.py runserver
 
 
 
-## 🛠️ Projec Demo Vido
-https://drive.google.com/file/d/1LBIJeIy4jvlZxUk33_UbnZjHtoknKrPY/view?usp=sharing
+## 🛠️ Projec Demo Video 
+
 
 
 🔗 VideoLink: [Google Drive Video](https://drive.google.com/file/d/1LBIJeIy4jvlZxUk33_UbnZjHtoknKrPY/view?usp=sharing)
@@ -89,7 +89,7 @@ https://drive.google.com/file/d/1LBIJeIy4jvlZxUk33_UbnZjHtoknKrPY/view?usp=shari
 
 
 
-🔗 VideoLink: [Google Drive Project link](https://drive.google.com/drive/folders/1rYD8zKLqsNvYXPNpkguCcGZh-dyRLBKR?usp=sharing)
+🔗 GooleDrive: [Google Drive Project link](https://drive.google.com/drive/folders/1rYD8zKLqsNvYXPNpkguCcGZh-dyRLBKR?usp=sharing)
 
 
 
