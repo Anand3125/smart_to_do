@@ -1,0 +1,98 @@
+import { useState } from "react";
+import axios from "axios";
+
+export default function AddTaskPage() {
+  const [title, setTitle] = useState("");
+  const [context, setContext] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [result, setResult] = useState(null);
+  const [error, setError] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    setError("");
+    setResult(null);
+
+    try {
+      const res = await axios.post("http://127.0.0.1:8000/api/ai/suggest/auto/", {
+        title,
+        context,
+      });
+
+      setResult(res.data);
+    } catch (err) {
+      setError(err?.response?.data?.error || "Something went wrong.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    <div className="max-w-xl mx-auto mt-10 px-4">
+      <h1 className="text-3xl font-bold mb-6 text-blue-700 text-center">
+        Add Smart Task 🤖
+      </h1>
+
+      <form onSubmit={handleSubmit} className="space-y-4">
+        <div>
+          <label className="block font-semibold">Task Title</label>
+          <input
+            type="text"
+            value={title}
+            required
+            onChange={(e) => setTitle(e.target.value)}
+            placeholder="e.g., Fix checkout issue"
+            className="w-full border rounded px-3 py-2 mt-1"
+          />
+        </div>
+
+        <div>
+          <label className="block font-semibold">Context (optional)</label>
+          <textarea
+            value={context}
+            onChange={(e) => setContext(e.target.value)}
+            rows={3}
+            placeholder="e.g., Mobile users can't complete payment"
+            className="w-full border rounded px-3 py-2 mt-1"
+          />
+        </div>
+
+        <button
+          type="submit"
+          disabled={loading}
+          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded"
+        >
+          {loading ? "Thinking..." : "Generate Task with AI"}
+        </button>
+      </form>
+
+      {result && (
+  <div className="mt-6 bg-gray-900 text-white border border-gray-700 rounded-md p-5 shadow-md">
+    <h2 className="text-green-400 font-semibold mb-2">✅ AI Task Saved</h2>
+    <p>
+      <span className="text-gray-400">Title:</span> {result.title}
+    </p>
+    <p>
+      <span className="text-gray-400">Description:</span> {result.description}
+    </p>
+    <p>
+      <span className="text-gray-400">Deadline:</span> {result.deadline}
+    </p>
+    <p>
+      <span className="text-gray-400">Category:</span> {result.category?.name || "N/A"}
+    </p>
+    <p>
+      <span className="text-gray-400">Priority:</span> {result.priority_score}
+    </p>
+  </div>
+)}
+
+      {error && (
+        <div className="mt-4 text-red-600 font-semibold">
+          ❌ {error}
+        </div>
+      )}
+    </div>
+  );
+}
