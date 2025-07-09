@@ -17,45 +17,7 @@ A full-stack to-do app with Gemini AI-based grammar correction.
 
 
 
-## 🌐 Portfolio
 
-- 🌍 [anand3125.github.io/Akfolio](https://anand3125.github.io/Akfolio/)
-- 📄 [My Resume](https://shorturl.at/6tjZ9)
-
-
-## 📌 Other Projects
-
-- 🛒 [E-commerce React App](https://ecommerce-react-website-beta.vercel.app/)
-- 🔗 [Express.js Product API](https://evara-main-backend.onrender.com/api/products)
-
-
-
-## 📫 Contact Me
-
-- 📧 **Email**: georgian3125anand@gmail.com
-- 📞 **Phone**: +91 9430417562
-- 🔗 **LinkedIn**: [linkedin.com/in/georgian3125anand](https://www.linkedin.com/in/georgian3125anand/)
-
-
-
-
-
-
----
-
-## 👨‍💻 About Me
-
-Hi, I'm **Anand Kumar**, a full-stack developer passionate about AI-integrated web applications.
-
-
-
----
-
-## 📬 Contributing
-
-Pull requests are welcome! Feel free to fork, clone, and PR.
-
----
 
 ## 📄 License
 
@@ -113,6 +75,16 @@ This project integrates **Google Gemini AI** to enhance the user experience thro
 
 ## 🛠️ Getting Started Locally
 
+### 🌐 Frontend
+
+```bash
+cd smart-todo-frontend
+npm install
+npm run dev
+```
+
+---
+
 ### 🔧 Backend
 
 ```bash
@@ -124,15 +96,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-### 🌐 Frontend
 
-```bash
-cd smart-todo-frontend
-npm install
-npm run dev
-```
-
----
 
 ## 🌐 Deployment Steps
 
@@ -293,6 +257,17 @@ Client: `http://localhost:3000`
 * [ ] API documentation with Swagger or Redoc
 
 ---
+
+### 🌐 Frontend
+
+```bash
+cd smart-todo-frontend
+npm install
+npm run dev
+```
+
+---
+
 
 ## 📌 Other Projects
 
