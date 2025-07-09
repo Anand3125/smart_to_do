@@ -19,7 +19,6 @@ A full-stack to-do app with Gemini AI-based grammar correction.
 
 
 
-
 ## 🛠️ Getting Started Locally
 
 ### 🌐 Frontend
@@ -80,7 +79,17 @@ python manage.py runserver
 
 
 
+## 🛠️ Projec Demo Vido
+https://drive.google.com/file/d/1LBIJeIy4jvlZxUk33_UbnZjHtoknKrPY/view?usp=sharing
 
+
+🔗 VideoLink: [Google Drive Video](https://drive.google.com/file/d/1LBIJeIy4jvlZxUk33_UbnZjHtoknKrPY/view?usp=sharing)
+
+## 🛠️ Full Projec Google Drive Link in case if you fail to load all the npm packages or not able to start the app due to version issue.
+
+
+
+🔗 VideoLink: [Google Drive Project link](https://drive.google.com/drive/folders/1rYD8zKLqsNvYXPNpkguCcGZh-dyRLBKR?usp=sharing)
 
 
 
