@@ -21,7 +21,7 @@ export default function AddTaskPage() {
     setLoading(true);
     setError("");
     setResult(null);
-
+  
     try {
       const res = await axios.post(
         "http://127.0.0.1:8000/api/ai/suggest/auto/",
@@ -30,9 +30,16 @@ export default function AddTaskPage() {
           context,
         }
       );
-
+  
       setResult(res.data);
-      toast.success("✅ Task generated successfully!");
+  
+      toast.custom(
+        <div>
+          <p className="font-bold text-green-700">✅ Task generated successfully!</p>
+         
+        </div>,
+        { duration: 1000 }
+      );
     } catch (err) {
       const msg = err?.response?.data?.error || "Something went wrong.";
       setError(msg);
@@ -40,7 +47,9 @@ export default function AddTaskPage() {
     } finally {
       setLoading(false);
     }
-  };
+  }; // ✅ This closes handleSubmit correctly
+  
+    
 
   return (
     <div
@@ -90,27 +99,31 @@ export default function AddTaskPage() {
           >
             {loading ? "Thinking..." : "Generate Task with AI"}
           </button> */}
-         <button
+       <button
   type="submit"
   disabled={loading}
-  className="w-full bg-black text-white font-medium py-2 px-4 rounded hover:bg-gray-800 transition flex justify-center items-center h-11"
+  className="w-full bg-black text-white font-medium py-2 px-4 rounded hover:bg-gray-800 transition flex justify-center items-center h-[52px]"
 >
   {loading ? (
-    <div className="loader scale-75">
-      <div className="inner one"></div>
-      <div className="inner two"></div>
-      <div className="inner three"></div>
+    <div className="spinner-box scale-75">
+      <div className="blue-orbit leo"></div>
+      <div className="green-orbit leo"></div>
+      <div className="red-orbit leo"></div>
+      <div className="white-orbit w1 leo"></div>
+      <div className="white-orbit w2 leo"></div>
+      <div className="white-orbit w3 leo"></div>
     </div>
   ) : (
     "Generate Task with AI"
   )}
 </button>
 
+
         </form>
 
         {result && (
           <div className="mt-6 border border-green-200 rounded-lg bg-green-50 p-4 text-green-900 text-sm space-y-2">
-            <h2 className="font-semibold">✅ AI Task Saved</h2>
+           
             <p>
               <strong>Title:</strong> {result.title}
             </p>
