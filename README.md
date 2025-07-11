@@ -206,9 +206,10 @@ Hi, I'm **Anand Kumar**, a full-stack developer passionate about modern web and 
 ---
 screenshots 
 home 
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/007fa825-d9c7-4860-ad7d-cbf377a93561" />
-Delete Task
-<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/abbcd835-506b-477b-832d-ccf454fd979c" />
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/7e914198-026f-4426-addf-9e84e3283e5e" />
+
+<img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/200d1091-16de-486b-9d0c-f2e8b8e1dc72" />
+
 Add Task here-
 <img width="2560" height="1440" alt="image" src="https://github.com/user-attachments/assets/c0a998e8-4815-4968-bce1-49608ce22634" />
 
